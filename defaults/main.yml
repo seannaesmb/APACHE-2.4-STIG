@@ -127,10 +127,10 @@ maxkeepaliverequests_count: 100
 # This is for control V-214231
 # Set the path and format for the log files
 httpd_custom_log:
-  path: "logs/access_log"
+  path: "logs/httpd/access_log"
   format: combined
 apache2_custom_log:
-  path: "logs/access_log"
+  path: "logs/httpd/access_log"
   format: combined
 
 # This is for control V-214235
